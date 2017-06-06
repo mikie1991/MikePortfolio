@@ -1,18 +1,59 @@
 body {
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 header {
-    background-color: azure;
-    width: auto;
     padding: 15px;
+
     text-align: center;
+
+    background-color: azure;
 }
 
 nav {
+    width: 60%;
 
+    margin: 0 auto;
+}
+
+nav ul {
+    width: auto;
+    height: 30px;
+
+    padding: 0;
+
+    margin: 0;
 }
 
 nav ul li {
-    display: inline-block;
+    float: left;
+
+    height: inherit;
+
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+
+    width: 100px;
+    height: 30px;
+
+    padding: 5px 0;
+
+    box-sizing: border-box;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: aqua;
+}
+
+#navContainer {
+    width: auto;
+    height: auto;
+
+    background-color: aquamarine;
 }
