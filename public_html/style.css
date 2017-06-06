@@ -16,12 +16,6 @@ header h2 {
     padding-bottom: 10px;
 }
 
-nav {
-    width: auto;
-
-    margin: auto;
-}
-
 nav ul {
     width: auto;
     height: 30px;
@@ -62,4 +56,15 @@ nav a:hover {
     height: auto;
 
     background-color: aquamarine;
+}
+
+.block {
+    width: 25%;
+    height: 150px;
+
+    margin: 10px;
+
+    background-color: darkslategrey;
+
+    //float:left;
 }
